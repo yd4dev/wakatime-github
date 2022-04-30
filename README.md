@@ -7,7 +7,7 @@ Python script that updates your GitHub Bio with your coding time of the day.
 2. Install python and it's **requests** library
 3. Create a ```config.json``` file and insert your API keys using the template below:
     - [GitHub Token](https://github.com/settings/tokens)  - Requires ```user``` scope
-    - [WakaTime Key](https://wakatime.com/settings/api-key)  - 
+    - [WakaTime Key](https://wakatime.com/settings/api-key)
 4. Start ```py main.py```
         ``` python3 main.py```
 
