@@ -21,7 +21,7 @@ with open('config.json') as f:
             'end': date.today()
         }).json()
 
-        time = res['cummulative_total']['text']
+        time = res['cumulative_total']['text']
 
         requests.patch(github_api, headers={
             'Accept': "application/vnd.github.v3+json",
