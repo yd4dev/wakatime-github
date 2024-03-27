@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wakatimegithub:
+    image: wakatimegithub
+    build:
+      context: .
+      dockerfile: ./Dockerfile
